@@ -174,10 +174,10 @@
 
         sys {
             bindings = <
-&bootloader  &kp LG(LC(N1))  &kp LG(LC(N2))  &kp LG(LC(N3))  &kp LG(LC(N4))  &kp LG(LC(N5))    &kp LG(LC(N6))  &kp LG(LC(N7))  &kp LG(LC(N8))  &kp LG(LC(N9))  &kp LG(LC(N0))  &bootloader
-&caps_word   &m_pass1        &m_pass2        &trans          &trans          &to 5             &trans          &trans          &trans          &kp K_LOCK      &trans          &trans
-&trans       &m_zoom         &trans          &trans          &trans          &to 0             &trans          &trans          &trans          &trans          &trans          &trans
-                                             &trans          &trans          &trans            &trans          &trans          &trans
+&bootloader   &kp LG(LC(N1))  &kp LG(LC(N2))  &kp LG(LC(N3))  &kp LG(LC(N4))  &kp LG(LC(N5))    &kp LG(LC(N6))  &kp LG(LC(N7))  &kp LG(LC(N8))  &kp LG(LC(N9))  &kp LG(LC(N0))  &bootloader
+&caps_word    &m_pass1        &m_pass2        &trans          &trans          &to 5             &trans          &trans          &trans          &kp K_LOCK      &trans          &trans
+&kp CAPSLOCK  &m_zoom         &trans          &trans          &trans          &to 0             &trans          &trans          &trans          &trans          &trans          &trans
+                                              &trans          &trans          &trans            &trans          &trans          &trans
             >;
 
             label = "sys";
