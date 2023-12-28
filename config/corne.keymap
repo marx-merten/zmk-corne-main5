@@ -95,6 +95,7 @@
             key-positions = <54 55 39 40>;
             timeout-ms = <100>;
             slow-release;
+            layers = <0 1 2 3>;
         };
 
         CO_ESC {
