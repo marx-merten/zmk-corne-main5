@@ -173,11 +173,10 @@
 
         Symbols {
             bindings = <
-&trans  &btquote                &kp LS(LT)           &kp LS(GT)          &kp LS(DQT)            &dotcom                          &kp LS(AMPS)   &kp SEMI               &kp LBKT                        &kp RBKT                         &kp LS(PRCNT)             &trans
-&trans  &hml LCTRL EXCLAMATION  &hml LEFT_ALT MINUS  &hml LEFT_GUI PLUS  &hml LEFT_SHIFT EQUAL  &kp HASH                         &kp PIPE       &hmr LEFT_SHIFT COLON  &hmr LEFT_GUI LEFT_PARENTHESIS  &hmr LEFT_ALT RIGHT_PARENTHESIS  &hmr LEFT_SHIFT QUESTION  &trans
-&trans  &kp LS(CARET)           &kp FSLH             &kp LS(STAR)        &kp BSLH               &pdir            &kp TILDE      &kp LS(DLLR)           &kp LS(LBRC)                    &kp LS(RBRC)                     &kp LS(AT)                &trans
-
-                                                 &trans             &trans                            &mo 2               &trans             &trans                             &trans
+&trans  &btquote                &kp LS(LT)           &kp LS(GT)          &kp LS(DQT)            &dotcom     &kp LS(AMPS)  &kp SEMI               &kp LBKT                        &kp RBKT                         &kp LS(PRCNT)             &trans
+&trans  &hml LCTRL EXCLAMATION  &hml LEFT_ALT MINUS  &hml LEFT_GUI PLUS  &hml LEFT_SHIFT EQUAL  &kp HASH    &kp PIPE      &hmr LEFT_SHIFT COLON  &hmr LEFT_GUI LEFT_PARENTHESIS  &hmr LEFT_ALT RIGHT_PARENTHESIS  &hmr LEFT_SHIFT QUESTION  &trans
+&trans  &kp LS(CARET)           &kp FSLH             &kp LS(STAR)        &kp BSLH               &pdir       &kp TILDE     &kp LS(DLLR)           &kp LS(LBRC)                    &kp LS(RBRC)                     &kp LS(AT)                &trans
+                                                     &trans              &trans                 &mo 2       &trans        &trans                 &trans
             >;
 
             label = "sym/num";
@@ -240,10 +239,10 @@
 
         cfg {
             bindings = <
-&trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &to 0   &to 6   &trans  &trans        &trans  &trans
-&trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans  &trans  &trans  &out OUT_TOG  &trans  &trans
-&trans  &trans         &bt BT_CLR     &trans         &trans         &trans           &trans  &trans  &trans  &trans        &trans  &trans
-                                      &trans         &trans         &trans           &trans  &trans  &trans
+&trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &to 0        &to 6   &trans  &trans        &trans  &trans
+&trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans       &trans  &trans  &out OUT_TOG  &trans  &trans
+&trans  &trans         &bt BT_CLR     &trans         &trans         &bootloader      &bootloader  &trans  &trans  &trans        &trans  &trans
+                                      &trans         &trans         &trans           &trans       &trans  &trans
             >;
 
             label = "cfg";
