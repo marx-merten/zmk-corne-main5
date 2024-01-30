@@ -173,9 +173,10 @@
 
         Symbols {
             bindings = <
-&trans  &kp N1              &kp N2               &kp N3             &kp N4                            &kp N5              &kp N6             &kp N7                             &kp N8               &kp N9                  &kp N0                   &trans
-&trans  &hml LCTRL AT_SIGN  &hml LEFT_ALT TILDE  &hml LEFT_GUI SQT  &hml LEFT_SHIFT LEFT_PARENTHESIS  &kp LEFT_BRACE      &kp RIGHT_BRACE    &hmr LEFT_SHIFT RIGHT_PARENTHESIS  &hmr LEFT_GUI EQUAL  &hmr LEFT_ALT ASTERISK  &hmr LEFT_SHIFT KP_PLUS  &trans
-&trans  &trans              &kp GRAVE            &kp MINUS          &kp BACKSLASH                     &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp EXCLAMATION                    &trans               &trans                  &trans                   &trans
+&trans  &btquote                &kp LS(LT)           &kp LS(GT)          &kp LS(DQT)            &dotcom                          &kp LS(AMPS)   &kp SEMI               &kp LBKT                        &kp RBKT                         &kp LS(PRCNT)             &trans
+&trans  &hml LCTRL EXCLAMATION  &hml LEFT_ALT MINUS  &hml LEFT_GUI PLUS  &hml LEFT_SHIFT EQUAL  &kp HASH                         &kp PIPE       &hmr LEFT_SHIFT COLON  &hmr LEFT_GUI LEFT_PARENTHESIS  &hmr LEFT_ALT RIGHT_PARENTHESIS  &hmr LEFT_SHIFT QUESTION  &trans
+&trans  &kp LS(CARET)           &kp FSLH             &kp LS(STAR)        &kp BSLH               &pdir            &kp TILDE      &kp LS(DLLR)           &kp LS(LBRC)                    &kp LS(RBRC)                     &kp LS(AT)                &trans
+
                                                  &trans             &trans                            &mo 2               &trans             &trans                             &trans
             >;
 
