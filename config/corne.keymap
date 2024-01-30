@@ -85,22 +85,39 @@
             #binding-cells = <0>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
         };
+
+        btquote: btquote {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BTQUOTE";
+            bindings = <&kp SINGLE_QUOTE>, <&kp GRAVE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        dotcom: dotcom {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DOTCOM";
+            bindings = <&kp PERIOD>, <&kp COMMA>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     combos {
         compatible = "zmk,combos";
 
         CO_CFG {
-            bindings = <&mo 6>;
-            key-positions = <54 55 39 40>;
+            bindings = <&mo 8>;
+            key-positions = <56 61>;
             timeout-ms = <100>;
             slow-release;
-            layers = <0 1 2 3>;
         };
 
         CO_ESC {
             bindings = <&kp ESCAPE>;
-            key-positions = <19 20>;
+            key-positions = <31 32>;
         };
     };
 
@@ -126,6 +143,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp FSLH &kp Z &kp O &kp O &kp M &kp SPACE &kp J &kp O &kp I &kp N &kp SPACE &kp M &kp E>;
             label = "M_ZOOM";
+        };
+
+        pdir: pdir {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOT &kp DOT &kp FSLH>;
+            label = "PDIR";
         };
     };
 
